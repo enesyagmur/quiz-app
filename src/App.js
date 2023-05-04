@@ -4,6 +4,7 @@ import Introduce from "./pages/introduce/Introduce";
 import Quiz from "./pages/quiz/Quiz";
 
 function App() {
+  
   return <div className="App"></div>;
 }
 
