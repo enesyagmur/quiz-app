@@ -4,8 +4,16 @@ import Introduce from "./pages/introduce/Introduce";
 import Quiz from "./pages/quiz/Quiz";
 
 function App() {
-  
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Introduce />} />
+          <Route path="/quiz/:difficulty" element={<Quiz />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;

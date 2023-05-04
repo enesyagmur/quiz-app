@@ -7,8 +7,8 @@ const Introduce = () => {
   return (
     <div className="introduce">
       <div className="introduce-container">
-        <img src="https://media.istockphoto.com/id/1319947380/vector/quiz-logo-banner-pop-art-design-for-survey-answer-question-game-questionnaire-quiz-icon.jpg?s=170667a&w=0&k=20&c=0YZfZa2OU3c6_hziUrvY0yW9y_FCS2Dy-GSuPpk6gAU=" />
-        <Dropdown difficulty />
+        <img src="https://t4.ftcdn.net/jpg/03/71/27/35/360_F_371273558_v74ZbyUOSOe6thaRyTxaRQe3qfWOACmw.jpg" />
+        <Dropdown difficulty /> Dropdown
         <div className="introduce-btn">Start</div>
       </div>
     </div>

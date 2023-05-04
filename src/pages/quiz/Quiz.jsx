@@ -1,5 +1,5 @@
 import React from "react";
-import "./quiz.css";
+import "./Quiz.css";
 
 const Quiz = () => {
   return <div className="quiz">quiz</div>;
