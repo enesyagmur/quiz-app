@@ -1,0 +1,13 @@
+:root {
+  --light: #26c7f4;
+  --dark: #0187ff;
+}
+.quiz {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(var(--light), var(--dark));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

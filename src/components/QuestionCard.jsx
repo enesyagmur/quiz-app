@@ -7,7 +7,7 @@ const QuestionCard = ({
   setScore,
   count,
   setCount,
-  modal,
+
   setModal,
 }) => {
   const check = (e) => {
@@ -20,6 +20,8 @@ const QuestionCard = ({
 
     if (count < 9) {
       setCount(count + 1);
+    } else if (count === 9) {
+      setModal(true);
     }
   };
   const [timer, SetTimer] = useState(30);
@@ -30,8 +32,6 @@ const QuestionCard = ({
       } else if (timer === 0 && count !== 9) {
         setCount(count + 1);
         SetTimer(30);
-      } else if (count === 9) {
-        setModal(true);
       }
     }, 1000);
 
