@@ -8,7 +8,7 @@ export const fetchQuizData = async () => {
   const data = await (await fetch(url)).json();
   return data.results.map((dt) => ({
     ...dt,
-    answers: shuffleArray([...dt.incorrect_answers, dt.correct_answers]),
+    answers: shuffleArray([...dt.incorrect_answers, dt.correct_answer]),
     // kodun anlamı, "...dt" datayı parçalara bölerek çekiyoruz
     //...dt, virgülden sonrası ekleme için kullanılıyor
     //dt içerisine answers diye yeni bir alan oluşturuyoruz
