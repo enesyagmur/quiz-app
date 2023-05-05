@@ -1,0 +1,78 @@
+:root {
+  --light: #26c7f4;
+  --dark: #0187ff;
+}
+.questionCard {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(var(--light), var(--dark));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.questionCardContainer {
+  width: 850px;
+  height: 350px;
+  border: 1px solid white;
+  padding: 20px;
+  position: relative;
+}
+.timer {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.score {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  background-color: gold;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.questionCardTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.questionCardContainer button {
+  width: 40%;
+  height: 20%;
+  background-color: white;
+  color: black;
+  margin: 0.7rem;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.questionCardContainer button:hover {
+  background-color: var(--dark);
+  color: white;
+}
