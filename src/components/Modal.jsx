@@ -4,9 +4,9 @@ import "./Modal.css";
 const Modal = ({ score }) => {
   return (
     <div className="modal">
-      <h1>Quiz</h1>
+      <h1>Quiz Bitti</h1>
       <h4>{"Skor : " + score}</h4>
-      <button>Yeniden Başla</button>
+      <button onClick={() => (window.location = "/")}>Yeniden Başla</button>
     </div>
   );
 };
